@@ -4,6 +4,10 @@ import Shoe from './Shoe';
 const Shoes = (props) => {
 return (
  <main>
+ <section className="mainImage">
+  <img src="https://i.ibb.co/LJsm4Zv/Nike-Header-min.jpg" width="100%" height="500" />
+  </section>
+ 
    <section className="shoes-wrapper">
     { props.items.map(shoe => (
         <Shoe 
