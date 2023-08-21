@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shoe-app/static/css/main.4f0b10a7.css",
+    "main.js": "/shoe-app/static/js/main.cc434635.js",
+    "static/media/white-addidas.jpg": "/shoe-app/static/media/white-addidas.782f0c62b808762e76e4.jpg",
+    "static/media/maroon-white-kyrie-max.png": "/shoe-app/static/media/maroon-white-kyrie-max.75160a0123979a8c52a8.png",
+    "index.html": "/shoe-app/index.html",
+    "main.4f0b10a7.css.map": "/shoe-app/static/css/main.4f0b10a7.css.map",
+    "main.cc434635.js.map": "/shoe-app/static/js/main.cc434635.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f0b10a7.css",
+    "static/js/main.cc434635.js"
+  ]
+}
