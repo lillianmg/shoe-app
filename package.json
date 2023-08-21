@@ -4,17 +4,18 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.6.2",
+    "gh-pages": "^6.0.0",
     "react": "^16.9.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^16.9.0",
     "react-scripts": "^5.0.1",
     "reactstrap": "^8.0.1"
   },
-   "homepage": "http://lillianmg.github.io/shoe-app",
+  "homepage": "http://lillianmg.github.io/shoe-app",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
