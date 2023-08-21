@@ -1,12 +1,23 @@
-import './App.css';
-import Storefront from './components/Storefront';
+import React, { Component } from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-     <Storefront />
-    </div>
-  );
+import MainNav from "./components/navs/MainNav";
+import Header from "./components/header/Header";
+import StoreFront from "./components/shop/StoreFront";
+
+class App extends Component {
+  // constructor(props) {
+  //   super(props);
+  // }
+
+  render() {
+    return (
+      <div>
+        <Header />
+        <StoreFront />
+      </div>
+    );
+  }
 }
 
 export default App;
